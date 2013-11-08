@@ -157,7 +157,7 @@ namespace CalebdarTest
 		private void testMethodForGitHub()
 		{
 		        MessageBox.Show("Config this method, please);
-		        
+				MessagqBox.Show("Configurated method");
 		}
 	}
 }
