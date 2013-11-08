@@ -143,7 +143,6 @@ namespace CalebdarTest
 					DayTask updatedDayTask;
 					dayTaskCollection.TryGetValue(selectedDate, out updatedDayTask);
 					updatedDayTask.Task = taskDefinition;
-					
 				}
 			}
 
@@ -153,6 +152,12 @@ namespace CalebdarTest
 		private void clearTextBox_Click(object sender, RoutedEventArgs e)
 		{
 			textBoxDayTask.Text = "";
+		}
+		
+		private void testMethodForGitHub()
+		{
+		        MessageBox.Show("Config this method, please);
+		        
 		}
 	}
 }
